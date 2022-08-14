@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import IntroSection from '../components/IntroSection.svelte';
+	import WhyUsSection from '../components/WhyUsSection.svelte';
+	import ServicesSection from '../components/ServicesSection.svelte';
+	import ContactSection from '../components/ContactSection.svelte';
+
+</script>
+
+<IntroSection />
+<WhyUsSection />
+<ServicesSection />
+<ContactSection />
+
+<footer>
+	<div class="min-h-16 bg-secondary" />
+</footer>
+
+<style>
+</style>
