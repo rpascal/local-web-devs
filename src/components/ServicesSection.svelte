@@ -1,11 +1,11 @@
-<section id="section-services" class="pt-20 pb-20">
-	<div class="container">
-		<div class="mx-auto px-4 max-w-6xl text-center items-center mb-10">
+<section id="section-services" class="pt-20">
+	<div class="container mx-auto">
+		<div class="px-4 mx-auto max-w-6xl text-center items-center mb-10">
 			<p class="text-6xl text-primary font-light">Services</p>
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-4 text-primary-content">
-			<div class="col-span-2 justify-center content-center m-auto">
+			<div class="md:col-span-2 justify-center content-center m-auto">
 				<div class="card w-96  bg-base-100 shadow-xl mb-8">
 					<div class="card-body items-center text-center">
 						<h2 class="card-title">Standard</h2>

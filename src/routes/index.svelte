@@ -3,6 +3,7 @@
 	import WhyUsSection from '../components/WhyUsSection.svelte';
 	import ServicesSection from '../components/ServicesSection.svelte';
 	import ContactSection from '../components/ContactSection.svelte';
+	import Footer from '../components/Footer.svelte';
 
 </script>
 
@@ -10,10 +11,8 @@
 <WhyUsSection />
 <ServicesSection />
 <ContactSection />
+<Footer />
 
-<footer>
-	<div class="min-h-16 bg-secondary" />
-</footer>
 
 <style>
 </style>

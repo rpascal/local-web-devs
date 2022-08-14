@@ -8,7 +8,8 @@
 				100% hand-coded websites starting at $200/month for $0 down 
 			</p>
 
-			<button class="btn glass btn-lg mt-6"> Reach out </button>
+			<a href="/#section-contact" class="btn glass btn-lg mt-6">Reach out</a>
+
 		</div>
 	</div>
 </section>
