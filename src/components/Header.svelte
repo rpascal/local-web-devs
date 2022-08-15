@@ -8,7 +8,7 @@
 <nav id="main-navbar" class={scrollYAmount > 10 ? 'header-fixed' : ''}>
 	<div class="navbar {scrollYAmount > 10 ? 'bg-primary-focus' : ''}" >
 		<div class="flex-1">
-			<a class="normal-case {scrollYAmount > 10 ? 'text-xl ml-4' : 'text-3xl m-4'}   " href="/">
+			<a class="normal-case {scrollYAmount > 10 ? 'text-xl ml-4' : 'text-2xl md:text-3xl m-4'}   " href="/">
 				<h1 class="font-bold">Local Web</h1>
 				<h1 class="font-light">Devs</h1>
 			</a>

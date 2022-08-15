@@ -4,9 +4,9 @@
 			<p class="text-6xl text-primary font-light">Services</p>
 		</div>
 
-		<div class="grid grid-cols-1 md:grid-cols-4 text-primary-content">
+		<div class="grid grid-cols-1 md:grid-cols-4">
 			<div class="md:col-span-2 justify-center content-center m-auto">
-				<div class="card w-96  bg-base-100 shadow-xl mb-8">
+				<div class="card md:w-96  bg-base-100 shadow-xl mb-8">
 					<div class="card-body items-center text-center">
 						<h2 class="card-title">Standard</h2>
 						<p class="pb-4"><span class="text-5xl font-bold">$200</span>/month</p>
@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="md:col-span-2 px-5 md:pl-10">
-				<p class="text-6xl font-light">
+				<p class="text-4xl md:text-6xl font-light">
 					<span class="text-primary font-bold">$0</span> Down,
 					<span class="text-primary font-bold">$200</span> Per Month
 				</p>
