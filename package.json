@@ -1,5 +1,5 @@
 {
-	"name": "local-web-design",
+	"name": "local-web-devs",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
