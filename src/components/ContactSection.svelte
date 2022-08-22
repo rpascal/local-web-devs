@@ -33,10 +33,11 @@
 				const res: Response = await fetch(`${variables.contactFormBasePath}/contact`, {
 					method: 'POST',
 					body: JSON.stringify({
-						toAddresses: [values.email],
+						replyToAddresses: [values.email],
+						toAddresses: [variables.contactEmail],
 						ccAddresses: [],
 						bccAddresses: [],
-						subject: `Test Contact Form From App - ${values.name}`,
+						subject: `[Contact Request] Test Contact Form From App - ${values.name}`,
 						body: values.message
 					})
 				});

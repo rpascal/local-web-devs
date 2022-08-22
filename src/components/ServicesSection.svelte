@@ -44,7 +44,7 @@
 
 				<div class="grid grid-cols-2 gap-x-8 gap-y-12">
 					<div>
-						<p class="text-2xl font-bold mb-2">Unlimited Edited</p>
+						<p class="text-2xl font-bold mb-2">Unlimited Edits</p>
 						<p>Change anything you'd like at anytime</p>
 					</div>
 					<div>
