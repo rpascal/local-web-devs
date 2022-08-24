@@ -8,7 +8,7 @@
 			<div class="md:col-span-2 justify-center content-center m-auto">
 				<div class="card md:w-96  bg-base-100 shadow-xl mb-8">
 					<div class="card-body items-center text-center">
-						<h2 class="card-title">Standard</h2>
+						<h2 class="card-title text-primary">Standard</h2>
 						<p class="pb-4"><span class="text-5xl font-bold">$200</span>/month</p>
 
 						<p class="text-xl">Custom Design</p>
