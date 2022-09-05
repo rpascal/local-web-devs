@@ -24,9 +24,8 @@ const config = {
 		⚠️ You must ensure SvelteKit's trailingSlash option is set appropriately for your environment. If your host does not render /a.html upon receiving a request for /a then you will need to set trailingSlash: 'always' to create /a/index.html instead.
 		*/
 		trailingSlash: 'always',
-		// adapter: adapter(),
-		prerender: {
-			default: true,
+		files: {
+			lib: 'src/lib'
 		}
 	}
 };
