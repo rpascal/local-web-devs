@@ -5,7 +5,7 @@
 			<div class="text-5xl font-bold">Small Business Web Design and Development</div>
 
 			<p class="home-intro-text text-md font-medium pt-4">
-				100% hand-coded websites starting at $200/month for $0 down 
+				100% hand-coded websites starting at $150/month for $0 down 
 			</p>
 
 			<a href="/#section-contact" class="btn glass btn-lg mt-6">Reach out</a>

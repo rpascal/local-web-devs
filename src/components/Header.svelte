@@ -34,11 +34,11 @@
 					</label>
 					<ul
 						tabindex="0"
-						class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4"
+						class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4 text-primary"
 					>
 						<li><a href="/#section-intro">Home</a></li>
 						<li><a href="/#section-why-us">Why Us</a></li>
-						<li><a href="/#section-services">Services</a></li>
+						<li><a href="/#section-services">Pricing</a></li>
 						<li><a href="/#section-contact">Contact</a></li>
 					</ul>
 				</div>
@@ -49,7 +49,7 @@
 			<ul class="menu menu-horizontal p-0 mr-4 text-xl">
 				<li><a href="/#section-intro">Home</a></li>
 				<li><a href="/#section-why-us">Why Us</a></li>
-				<li><a href="/#section-services">Services</a></li>
+				<li><a href="/#section-services">Pricing</a></li>
 				<li><a href="/#section-contact">Contact</a></li>
 			</ul>
 		</div>
