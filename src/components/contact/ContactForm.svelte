@@ -28,7 +28,7 @@
 	const { form, isValid, reset } = createForm({
 		onSubmit: async (values) => {
 			try {
-				const res: Response = await fetch(variables.contactFormPostUrl, {
+				const res: Response = await fetch("/api/contact", {
 					method: 'POST',
 					body: JSON.stringify({
 						replyToAddresses: [values.email],
@@ -36,7 +36,8 @@
 						ccAddresses: [],
 						bccAddresses: [],
 						subject: `[Contact Request] Test Contact Form From App - ${values.name}`,
-						body: values.message
+						body: values.message,
+						attachments: []
 					})
 				});
 
@@ -116,7 +117,7 @@
 
 		<div class="form-control">
 			<label for="message-input" class="label">
-				<span class="label-text">Messgae</span>
+				<span class="label-text">Message</span>
 			</label>
 			<textarea
 				id="message-input"

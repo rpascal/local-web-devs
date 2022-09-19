@@ -36,10 +36,10 @@
 						tabindex="0"
 						class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4 text-primary"
 					>
-						<li><a href="/#section-intro">Home</a></li>
-						<li><a href="/#section-why-us">Why Us</a></li>
-						<li><a href="/#section-services">Pricing</a></li>
-						<li><a href="/#section-contact">Contact</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/#why-us">Why Us</a></li>
+						<li><a href="/#pricing">Pricing</a></li>
+						<li><a href="/#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -47,10 +47,10 @@
 
 		<div class="navbar-end hidden md:flex">
 			<ul class="menu menu-horizontal p-0 mr-4 text-xl">
-				<li><a href="/#section-intro">Home</a></li>
-				<li><a href="/#section-why-us">Why Us</a></li>
-				<li><a href="/#section-services">Pricing</a></li>
-				<li><a href="/#section-contact">Contact</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/#why-us">Why Us</a></li>
+				<li><a href="/#pricing">Pricing</a></li>
+				<li><a href="/#contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>

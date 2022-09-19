@@ -3,7 +3,7 @@
 	import ContactForm from './contact/ContactForm.svelte';
 </script>
 
-<section id="section-contact" class="pt-20">
+<section id="contact" class="pt-20">
 	<div class="container my-0 mx-auto px-4 max-w-6xl">
 		<div class="mx-auto px-4 max-w-6xl text-center items-center mb-10">
 			<p class="text-6xl text-primary font-light">Contact</p>

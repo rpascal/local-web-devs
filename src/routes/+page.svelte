@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Local Web Devs</title>
-	<meta name="description" content="100% Handcoded Small Business Web Design and Development" />
+	<meta name="description" content="100% Handcoded Small Business Website Development and Design" />
 </svelte:head>
 
 <IntroSection />

@@ -1,4 +1,4 @@
-<section id="section-why-us" class="pt-20">
+<section id="why-us" class="pt-20">
 	<div class="container  mx-auto px-4 max-w-6xl text-center items-center">
 		<div class="mb-10">
 			<p class="text-6xl text-primary font-light">Why Us?</p>

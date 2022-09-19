@@ -1,4 +1,4 @@
-<section id="section-services" class="pt-20">
+<section id="pricing" class="pt-20">
 	<div class="container mx-auto px-4 max-w-6xl  grid grid-flow-row gap-6">
 		<p class="text-6xl text-primary font-light text-center">Pricing</p>
 
@@ -25,7 +25,7 @@
 					<div class="divider my-0" />
 
 					<div class="card-actions">
-						<button class="btn btn-primary"><a href="/#section-contact">Contact</a></button>
+						<button class="btn btn-primary"><a href="/#contact">Contact</a></button>
 					</div>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 					<div class="divider my-0" />
 
 					<div class="card-actions">
-						<button class="btn btn-primary"><a href="/#section-contact">Contact</a></button>
+						<button class="btn btn-primary"><a href="/#contact">Contact</a></button>
 					</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@
 				</p>
 
 				<div class="card-actions">
-					<button class="btn btn-primary"><a href="/#section-contact">Contact</a></button>
+					<button class="btn btn-primary"><a href="/#contact">Contact</a></button>
 				</div>
 			</div>
 		</div>
