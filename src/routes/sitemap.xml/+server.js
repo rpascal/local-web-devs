@@ -16,7 +16,7 @@ export async function GET() {
         
         <url>
         <loc>https://www.localwebdevs.com/</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
         </url>
 

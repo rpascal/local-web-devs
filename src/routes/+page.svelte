@@ -8,7 +8,16 @@
 
 <svelte:head>
 	<title>Local Web Devs</title>
-	<meta name="description" content="100% Handcoded Small Business Website Development and Design" />
+	<meta name="description" content="100% Handcoded Small Business Website Development and Design starting at $150/mo." />
+
+	<meta property="og:title" content="Local Web Devs"/>
+    <meta property="og:description" content="100% Handcoded Small Business Website Development and Design starting at $150/mo."/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.localwebdevs.com/"/>
+    <meta property="og:image" content="https://www.localwebdevs.com/meta/og.png"/>
+    <meta property="og:image:secure_url" content="https://www.localwebdevs.com/meta/og.png"/>
+
+
 </svelte:head>
 
 <IntroSection />
