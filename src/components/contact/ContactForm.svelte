@@ -25,9 +25,12 @@
 		});
 	}
 
+	let sendingEmail: boolean = false;
 	const { form, isValid, reset } = createForm({
 		onSubmit: async (values) => {
 			try {
+				sendingEmail = true;
+
 				const res: Response = await fetch("/api/contact", {
 					method: 'POST',
 					body: JSON.stringify({
@@ -35,7 +38,7 @@
 						toAddresses: [variables.contactEmail],
 						ccAddresses: [],
 						bccAddresses: [],
-						subject: `[Contact Request] Test Contact Form From App - ${values.name}`,
+						subject: `[Website Contact Inquiry] ${values.name}`,
 						body: values.message,
 						attachments: []
 					})
@@ -51,6 +54,8 @@
 			} catch (e) {
 				console.error('Failed to send contact form email', e);
 				failedToast();
+			} finally {
+				sendingEmail = false;
 			}
 		},
 		extend: [reporter, validator({ schema })]
@@ -134,7 +139,7 @@
 		</div>
 
 		<div class="card-actions justify-end">
-			<button type="submit" disabled={!$isValid} class="btn btn-secondary">Send</button>
+			<button type="submit" disabled={!$isValid || sendingEmail} class="btn btn-secondary">Send</button>
 		</div>
 	</div>
 </form>
